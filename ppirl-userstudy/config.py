@@ -142,10 +142,12 @@ SEQUENCE_MODE3 = [
    'show_thankyou' 
 ]
 
+
+#ATTENTION!!!!!!!!!!!!! Changed everything to have mode 4 for users to have everything
 SEQUENCE = {
-    "Mode_1": SEQUENCE_MODE1,
-    "Mode_2": SEQUENCE_MODE2,
-    "Mode_3": SEQUENCE_MODE3,
+    "Mode_1": SEQUENCE_MODE4,
+    "Mode_2": SEQUENCE_MODE4,
+    "Mode_3": SEQUENCE_MODE4,
     "Mode_4": SEQUENCE_MODE4
 }
 
@@ -187,16 +189,16 @@ KAPR_LIMIT_FACTOR = 1
 #KAPR_LIMIT_FACTOR = 0.5
 
 # email server
-MAIL_SERVER = 'smtp.googlemail.com'
+# MAIL_SERVER = 'smtp.googlemail.com'
 
-MAIL_PORT = 465
+# MAIL_PORT = 465
 
-MAIL_USE_TLS = False
+# MAIL_USE_TLS = False
 
-MAIL_USE_SSL = True
+# MAIL_USE_SSL = True
 
-MAIL_USERNAME = 'ppirl.mindfil@gmail.com'
+# MAIL_USERNAME = 'ppirl.mindfil@gmail.com'
 
-MAIL_PASSWORD = 'Abcd1234$'
+# MAIL_PASSWORD = 'Abcd1234$'
 
-MAIL_DEFAULT_SENDER = 'ppirl.mindfil@gmail.com'
+# MAIL_DEFAULT_SENDER = 'ppirl.mindfil@gmail.com'
