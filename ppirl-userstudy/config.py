@@ -12,7 +12,7 @@ else:
 SEQUENCE_MODE4 = [
     'show_introduction',    #0
     'show_introduction2',    #1
-    'pre_survey',
+    # 'pre_survey',
     'tutorial.show_tutorial_rl_pdf',    #2
     'tutorial.show_tutorial_rl_id_1',    #3
     'tutorial.show_tutorial_rl_id_2',    #4
@@ -42,10 +42,10 @@ SEQUENCE_MODE4 = [
     # 'show_tutorial_clickable_budgetmeter_vid',
     'tutorial.show_tutorial_clickable_prepractice',    #28
     'tutorial.show_tutorial_clickable_practice', #29 DATA_CLICKABLE_PRACTICE
-    'main_section.show_section1_guide',    #30
-    'main_section.show_record_linkage_task',    #31
-    'main_section.show_main_section_guide',    #32      
-    'post_survey',
+    # 'main_section.show_section1_guide',    #30
+    # 'main_section.show_record_linkage_task',    #31
+    # 'main_section.show_main_section_guide',    #32      
+    # 'post_survey',
     'show_thankyou'    #34
 ]
 

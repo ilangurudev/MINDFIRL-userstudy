@@ -1,5 +1,5 @@
 from flask import Flask, render_template, redirect, url_for, session, jsonify, request, g
-from flask_mail import Mail, Message
+# from flask_mail import Mail, Message
 import time
 from random import *
 import json
@@ -29,8 +29,8 @@ app.secret_key = 'a9%z$/`9h8FMnh893;*g783'
 app.register_blueprint(tutorial)
 app.register_blueprint(main_section)
 
-app.config.from_pyfile('email_config.py')
-mail = Mail(app)
+# app.config.from_pyfile('email_config.py')
+# mail = Mail(app)
 
 
 if not r.exists('user_id_generator'):
