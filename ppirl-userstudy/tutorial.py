@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, redirect, url_for, session, jsonify, request
-from flask_mail import Mail, Message
+# from flask_mail import Mail, Message
 import os
 import time
 import math
